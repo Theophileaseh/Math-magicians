@@ -1,0 +1,16 @@
+.main-screen {
+  height: 75px;
+  background: grey;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.screen {
+  color: #fff;
+  font-size: 25px;
+  margin: 15px;
+}

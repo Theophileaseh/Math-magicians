@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Button from './Buttons';
+import Display from './Display';
 
 class Calculator extends Component {
   constructor(props) {
@@ -10,6 +11,7 @@ class Calculator extends Component {
   render() {
     return (
       <div id="app">
+        <Display />
         <Button />
       </div>
     );
