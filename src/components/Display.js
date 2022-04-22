@@ -6,11 +6,9 @@ import '../styles/Display.css';
 function Display({ total, next, operation }) {
   return (
     <div className="main-screen">
-      <span className="screen">
-        {total}
-        {next}
-        {operation}
-      </span>
+      <span className="screen">{total}</span>
+      <span className="screen">{operation}</span>
+      <span className="screen">{next}</span>
     </div>
   );
 }
