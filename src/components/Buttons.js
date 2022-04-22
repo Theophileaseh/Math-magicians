@@ -1,39 +1,52 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import OneButton from './SingleButton';
 import '../styles/Button.css';
 
-function Button() {
+function Button({ clickHandler }) {
+  const handleClick = (buttonName) => {
+    clickHandler(buttonName);
+  };
+
+  const defaultClass = 'button';
+
   return (
     <div className="buttonContainer">
       <div className="row-2">
-        <button type="button" className="button" value="AC">AC</button>
-        <button type="button" className="button" value="+/-">+/-</button>
-        <button type="button" className="button" value="%">%</button>
-        <button type="button" className="button main" value="/">/</button>
+        <OneButton className={defaultClass} buttonName="AC" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="+/-" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="%" clickHandler={handleClick} />
+        <OneButton className={`${defaultClass} main`} buttonName="÷" clickHandler={handleClick} />
       </div>
       <div className="row-3">
-        <button type="button" className="button" value="7">7</button>
-        <button type="button" className="button" value="8">8</button>
-        <button type="button" className="button" value="9">9</button>
-        <button type="button" className="button main" value="*">*</button>
+        <OneButton className={defaultClass} buttonName="7" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="8" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="9" clickHandler={handleClick} />
+        <OneButton className={`${defaultClass} main`} buttonName="x" clickHandler={handleClick} />
       </div>
       <div className="row-4">
-        <button type="button" className="button" value="4">4</button>
-        <button type="button" className="button" value="5">5</button>
-        <button type="button" className="button" value="6">6</button>
-        <button type="button" className="button main" value="-">-</button>
+        <OneButton className={defaultClass} buttonName="4" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="5" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="6" clickHandler={handleClick} />
+        <OneButton className={`${defaultClass} main`} buttonName="-" clickHandler={handleClick} />
       </div>
       <div className="row-5">
-        <button type="button" className="button" value="1">1</button>
-        <button type="button" className="button" value="2">2</button>
-        <button type="button" className="button" value="3">3</button>
-        <button type="button" className="button main" value="+">+</button>
+        <OneButton className={defaultClass} buttonName="1" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="2" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="3" clickHandler={handleClick} />
+        <OneButton className={`${defaultClass} main`} buttonName="+" clickHandler={handleClick} />
       </div>
       <div className="row-6">
-        <button type="button" className="button double" value="0">0</button>
-        <button type="button" className="button" value=".">.</button>
-        <button type="button" className="button main" value="=">=</button>
+        <OneButton className={`${defaultClass} double`} buttonName="0" clickHandler={handleClick} />
+        <OneButton className={defaultClass} buttonName="." clickHandler={handleClick} />
+        <OneButton className={`${defaultClass} main`} buttonName="=" clickHandler={handleClick} />
       </div>
     </div>
   );
 }
+
+Button.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
+};
 
 export default Button;
