@@ -1,0 +1,17 @@
+.calculatorContainer {
+  display: flex;
+  margin-top: 120px;
+  gap: 60px;
+  justify-content: center;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.maincalculator {
+  border: 2px solid grey;
+  padding: 20px;
+  background: #dadada;
+}
