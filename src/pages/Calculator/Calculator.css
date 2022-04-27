@@ -1,6 +1,6 @@
 .calculatorContainer {
   display: flex;
-  margin-top: 120px;
+  margin-top: 80px;
   gap: 60px;
   justify-content: center;
 }
