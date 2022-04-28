@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches home snapshot 1`] = `
+<div
+  className="maincontainer"
+>
+  <h2
+    className="intro"
+  >
+    Mathematics is not about number, equations, computations, or algorithms: it is about understanding. William Paul Thurston
+  </h2>
+</div>
+`;
