@@ -6,7 +6,7 @@
 
 ## Website Link
 
-[Click to see Website](https://theophileaseh.github.io/Math-magicians/)
+[Click to see Website](https://626aa42a3e47df12ae36edb3--roaring-manatee-9a960c.netlify.app/)
 
 ## Screenshot
 
