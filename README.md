@@ -1,7 +1,7 @@
 
 # Math Magicians Website
 
-> Math Magcians is a website with an online caculator that enables one to perform mathematical calculations
+> Math Magcians is a website with an online caculator that enables one to perform mathematical calculations.
 
 
 ## Website Link
