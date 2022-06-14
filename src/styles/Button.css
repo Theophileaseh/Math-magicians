@@ -1,14 +1,20 @@
 .buttonContainer {
   width: 400px;
   margin: 0 auto;
+  background: #121212;
 }
 
 .button {
   width: 25%;
   height: 75px;
-  border: 1px solid #d4d4d4;
-  border-radius: 3px;
+  border: 6px solid #121212;;
+  border-radius: 15px;
   font-size: 22px;
+}
+
+.button:hover {
+  background: orange;
+  color: #fff;
 }
 
 .double {
@@ -17,4 +23,10 @@
 
 .main {
   background: orange;
+  color: #fff;
+}
+
+.main:hover {
+  background: #fff;
+  color: orange;
 }

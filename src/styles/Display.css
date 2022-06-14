@@ -1,15 +1,16 @@
 .main-screen {
   height: 75px;
-  background: grey;
+  background: #ffffff;
   width: 400px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .screen {
-  color: #fff;
+  color: #000;
   font-size: 25px;
   margin: 15px;
 }
