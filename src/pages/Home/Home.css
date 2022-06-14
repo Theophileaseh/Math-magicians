@@ -1,8 +1,10 @@
 .maincontainer {
   padding: 30px;
-  margin-top: 120px;
+  padding-top: 120px;
+  background: #1a011a;
 }
 
 .intro {
   font-weight: 400;
+  color: #fff;
 }

@@ -2,9 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  /* padding: 20px; */
   margin-left: 20px;
   margin-right: 20px;
+  background: white;
 }
 
 .navigation {
@@ -14,11 +15,11 @@
 
 .links {
   text-decoration: none;
-  color: #000;
   font-weight: 500;
   padding-right: 20px;
+  color: purple;
 }
 
 .border {
-  border-right: 1px solid #000;
+  border-right: 1px solid purple;
 }
