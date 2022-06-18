@@ -4,7 +4,7 @@
   gap: 60px;
   justify-content: center;
   background: #1a011a;
-  height: 600px;
+  height: 100vh;
 }
 
 .text {
@@ -22,4 +22,19 @@
 
 .test-desc {
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .calculatorContainer {
+    flex-direction: column;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .maincalculator {
+    width: 80%;
+    margin: 0 auto;
+  }
 }

@@ -13,6 +13,10 @@
   display: flex;
 }
 
+.logo-text {
+  color: purple;
+}
+
 .links {
   text-decoration: none;
   font-weight: 500;
@@ -22,4 +26,11 @@
 
 .border {
   border-right: 1px solid purple;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-text {
+    font-size: 18px;
+  }
+  
 }
