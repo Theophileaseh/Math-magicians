@@ -14,3 +14,10 @@
   font-size: 25px;
   margin: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .main-screen {
+    width: 100%;
+  }
+  
+}
