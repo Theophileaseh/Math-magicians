@@ -5,8 +5,8 @@
 
 ## Get Started
 
-   git clone git@github.com:Theophileaseh/Math-magicians.git
-   cd into the folder by typing: cd Math-magicians
+  `` git clone github.com/Theophileaseh/Math-magicians.git ``
+ ``  cd into the folder by typing: cd Math-magicians ``
 
 ## Website Link
 
