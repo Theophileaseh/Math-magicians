@@ -15,12 +15,14 @@ function Display({ total, next, operation }) {
 
 Display.propTypes = {
   total: PropTypes.string,
-  next: PropTypes.string.isRequired,
-  operation: PropTypes.string.isRequired,
+  next: PropTypes.string,
+  operation: PropTypes.string,
 };
 
 Display.defaultProps = {
   total: '0',
+  next: '',
+  operation: '',
 };
 
 export default Display;

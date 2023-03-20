@@ -1,8 +1,10 @@
 .calculatorContainer {
   display: flex;
-  margin-top: 80px;
+  padding-top: 80px;
   gap: 60px;
   justify-content: center;
+  background: #1a011a;
+  height: 100vh;
 }
 
 .text {
@@ -11,7 +13,28 @@
 }
 
 .maincalculator {
-  border: 2px solid grey;
+  border: 2px solid #5f5858;
   padding: 20px;
-  background: #dadada;
+  background: #121212;
+  border-radius: 5px;
+  height: max-content;
+}
+
+.test-desc {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .calculatorContainer {
+    flex-direction: column;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .maincalculator {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
