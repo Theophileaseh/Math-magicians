@@ -14,7 +14,7 @@
 
 ## Screenshot
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot.webp)
 
 ## Built With
 
