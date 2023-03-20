@@ -9,9 +9,8 @@
    cd into the folder by typing: cd Math-magicians
 
 ## Website Link
-add events
 
-[Click to see Website](https://theophileaseh.github.io/Math-magicians/)
+[Click to see Website](math-magicians-apps.netlify.app/)
 
 ## Screenshot
 
