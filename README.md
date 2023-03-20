@@ -4,6 +4,10 @@
 
 > Math Magcians is a website with an online caculator that enables one to perform mathematical calculations
 
+## Get Started
+
+   git clone git@github.com:Theophileaseh/Math-magicians.git
+   cd into the folder by typing: cd Math-magicians
 
 ## Website Link
 add events
