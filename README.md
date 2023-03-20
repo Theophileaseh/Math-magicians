@@ -1,11 +1,11 @@
 
 # Math Magicians Website
 
+
 > Math Magcians is a website with an online caculator that enables one to perform mathematical calculations
 
 
 ## Website Link
-add events
 
 [Click to see Website](https://theophileaseh.github.io/Math-magicians/)
 
