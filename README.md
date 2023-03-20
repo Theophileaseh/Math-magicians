@@ -6,6 +6,7 @@
 
 
 ## Website Link
+add events
 
 [Click to see Website](https://theophileaseh.github.io/Math-magicians/)
 
